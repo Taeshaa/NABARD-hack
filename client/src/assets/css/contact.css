@@ -31,7 +31,7 @@
 
 .contact-text{
     font-family: allura !important;
-    color: white;
+    color: #285430;
     font-size: 40px;
     position: relative;
     top: 5px;
@@ -58,7 +58,7 @@
 
 .contact-right-heading{
     letter-spacing: 1px;
-    color: white;
+    color: #285430;
     font-family: Outfit;
     font-weight: 500;
     font-size: 3em;
@@ -67,7 +67,7 @@
 .contact-right-links .con-link{
     border-radius: 30px;
     padding: 10px 20px 10px 10px;
-    background-color: white;
+    background-color: #e1eade;
     color: #285430;
     letter-spacing: 1px;
     font-weight: 400;
@@ -78,7 +78,7 @@
 }
 
 .social-media-buttons-contact li{
-    color: white;
+    color: #285430;
     margin: 40px 40px 0 0;
 }
 
@@ -90,7 +90,7 @@
 
 
 .social-media-buttons-contact p{
-    color: white;
+    color: #285430;
     margin: 40px 0 0 0;
     font-family: Outfit;
     letter-spacing: 1px;

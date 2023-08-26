@@ -1,13 +1,13 @@
 import '../../assets/css/navbar.css';
 import AuthContext from '../../context/auth/authContext';
-import LogoMain from '../../assets/logos/logo-main-copy.png';
+//import LogoMain from '../../assets/logos/logo_main.png';
 import React, { useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../assets/css/modal.css';
-import Login from '../auth/Login';
-import Register from '../auth/Register';
+// import Login from '../auth/Login';
+// import Register from '../auth/Register';
 import Girlava from '../../assets/logos/girlava.png';
-import arrowback from '../../assets/images/arrow-back.svg';
+//import arrowback from '../../assets/images/arrow-back.svg';
 
 const NavbarInside = () => {
     const authContext = useContext(AuthContext);

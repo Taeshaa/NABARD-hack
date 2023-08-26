@@ -1,6 +1,5 @@
 import '../../assets/css/contact.css';
 import '../../assets/css/modal.css'
-import LogoMain from '../../assets/logos/NABARD_Logo_Green.png';
 import Newsletter from './Newsletter';
 import Map from './Map'
 import News from './News';
@@ -17,7 +16,12 @@ const ContactUs = () => {
         <div className="contact">
             <div className="contact-inner row">
                 <div className="contact-left col-sm-6">
-                            
+                    <span className='contact-text'>
+                        कृषिकोश
+                    </span>
+                    <br />
+                    <br />
+                    <br />
                     {/* <img src={LogoMain} className='logo-contact'></img> */}
 
                     <div className='contact-left-text'>

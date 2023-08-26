@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext';
 import '../../assets/css/sidenav.css';
-import LogoMain from '../../assets/logos/logo-main.png';
+import LogoMain from '../../assets/logos/logo_main.png';
 
 const SideNav = () => {
   const authContext = useContext(AuthContext);
