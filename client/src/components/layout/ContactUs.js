@@ -1,6 +1,5 @@
 import '../../assets/css/contact.css';
 import '../../assets/css/modal.css'
-import LogoMain from '../../assets/logos/logo-main-copy.png';
 import Newsletter from './Newsletter';
 import Map from './Map'
 import News from './News';
