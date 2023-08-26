@@ -5,11 +5,11 @@ import Girlava from '../../assets/logos/girlava.png';
 import Carousel from '../pages/Carousel';
 import NavbarInside from '../layout/NavbarInside2';
 import profilephoto from '../../assets/images/profile-photo.jpg';
-import shgphoto from '../../assets/images/shg-img.jpg';
-import loanphoto from '../../assets/images/loan-img.jpg';
+import shgphoto from '../../assets/images/receive.jpg';
+import loanphoto from '../../assets/images/aunty1.jpg';
 import customerimg from '../../assets/images/customer-support.jpg';
-import sellproduct from '../../assets/images/sellproduct2.jpg';
-import connectimg from '../../assets/images/sellproduct.jpg';
+import sellproduct from '../../assets/images/farmer-scheme.png';
+import connectimg from '../../assets/images/uncle.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {

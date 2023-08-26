@@ -64,6 +64,10 @@ const App = () => {
                 </PrivateRoute>
                 <Route exact path='/'>
                   <NavbarMain />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
                   <Banner />
                   <AboutMain />
                   <Schemes />

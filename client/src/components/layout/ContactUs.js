@@ -3,6 +3,7 @@ import '../../assets/css/modal.css'
 import Newsletter from './Newsletter';
 import Map from './Map'
 import News from './News';
+import logoName from "../../assets/images/logoName.jpeg";
 const location = {
     address: 'Dwarka, Delhi.',
     lat: 28.5823,
@@ -16,12 +17,9 @@ const ContactUs = () => {
         <div className="contact">
             <div className="contact-inner row">
                 <div className="contact-left col-sm-6">
-                    <span className='contact-text'>
-                        कृषिकोश
-                    </span>
+                    <img src={logoName} className='logo-contact'></img>
                     <br />
-                    <br />
-                    <br />
+
                     {/* <img src={LogoMain} className='logo-contact'></img> */}
 
                     <div className='contact-left-text'>
@@ -45,6 +43,7 @@ const ContactUs = () => {
                             USEFUL LINKS
                         </div>
                         <div className='contact-right-links'>
+                            <div><a className='con-link' href=''><i class="fa-solid fa-1x fa-circle-chevron-right"></i>Digital Resources for financial literacy</a></div>
                             <div><a className='con-link' href=''><i class="fa-solid fa-1x fa-circle-chevron-right"></i> Get Involved</a></div>
                             <div><a className='con-link' href=''><i class="fa-solid fa-1x fa-circle-chevron-right"></i> Apply for Kisan Credit Card</a></div>
                             <div><a className='con-link' href="#subnews"><i class="fa-solid fa-1x fa-circle-chevron-right"></i> Subscribe to Newsletter</a><Newsletter /></div>

@@ -16,6 +16,7 @@ const DepositFunds = () => {
       <div>
         <DepositForm />
       </div>
+      
     </div>
   );
   
