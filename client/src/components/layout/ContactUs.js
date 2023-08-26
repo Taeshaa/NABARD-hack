@@ -18,9 +18,6 @@ const ContactUs = () => {
                 <div className="contact-left col-sm-6">
                             
                     {/* <img src={LogoMain} className='logo-contact'></img> */}
-                    <span className='contact-text'>
-                        कृषिकोश
-                    </span>
 
                     <div className='contact-left-text'>
                         

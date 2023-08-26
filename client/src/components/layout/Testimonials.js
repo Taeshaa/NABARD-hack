@@ -1,9 +1,9 @@
 import React from 'react'
 import { useEffect } from "react";
 import "../../assets/css/testimonials.css";
-import image1 from "../../assets/images/RumaDevi.jpeg";
+import image1 from "../../assets/images/test1.jpg";
 import image2 from "../../assets/images/RumaDevi2.jpg";
-import image3 from "../../assets/images/RumaDevi3.png";
+import image3 from "../../assets/images/test2.jpg";
 import "../../assets/css/testimonials.css";
 import testimonial from '../../assets/images/testimoniall2.png';
 import AOS from "aos";
@@ -35,14 +35,15 @@ function Testimonials() {
                       <center>
                           <div className='women-cont'>
                               <img src={image1} alt="img" className="women" />
-                              <p className="paraaa"><b>RUMA DEVI</b></p>
+                              <p className="paraaa"><b>RAMU KUMAR</b></p>
                               <div>
                                   <img src={testimonial} alt="img" className="women-below" />
                               </div>
                           </div>
                       </center>
                   </div>
-                  <p className="paraa">With the help of Team Adya I started a company  which turns waste material into decorative paper lamps with a motive to enable women from underprivileged backgrounds to become financially independent. Team Adya helped create employment opportunities for over 60 women in my village, and is enable them to become strong, skilled, and independent.</p>
+                  <p className="paraa">KrishiKosh is one of the simplest platforms which I have come across. With the help of them I was able to get a loan using the Pradhan Mantri Krishi Yojna. 
+                  I bought seeds and fertilizers to again start paddy farming. Big thanks to KrishiKosh for their timely support.</p>
                 </div>
               </div>
             </div>
@@ -60,7 +61,9 @@ function Testimonials() {
                           </div>
                       </center>
                   </div>
-                  <p className="paraa">I belong to a small village,and have completed graduation. For years, I dreamed of becoming an entrepreneur and running my own company. Team Adya assisted me in developing a robust business strategy, which was essential in obtaining investment. I never get the feeling that I'm alone. If I need help, I always know that Team Adya is just a phone call or an email away!" </p>
+                  <p className="paraa">I was always unable to avail government schemes due to lack of knowledge and understanding. My friend told me about the
+                  door to door service of KrishiKosh. They were just one call away. And now I have availed two schemes in just 1 month of time. Thank you KrishiKosh for aways being their. 
+                  </p>
                 </div>
               </div>
             </div>
@@ -71,14 +74,16 @@ function Testimonials() {
                       <center>
                           <div className='women-cont'>
                               <img src={image3} alt="img" className="women" />
-                              <p className="paraaa"><b>GEETA GUPTA</b></p>
+                              <p className="paraaa"><b>GYAN GUPTA</b></p>
                               <div>
                                   <img src={testimonial} alt="img" className="women-below" />
                               </div>
                           </div>
                       </center>
                   </div>
-                  <p className="paraa"> I had a dream to launch a startup to promote Phulkari. I started my company with the help of my fellow SHG members, and now I have a large workforce and a large client base across India. I know I can count on Team Adya and the Counselors to link me to the tools and services I need at every level of my business's development.</p>
+                  <p className="paraa"> I came to know aout KrishiKosh when their team visited our village for conducting a session on financial literacy. 
+                  I opened my account with them and am able to send money to my brother who lives in another village. 
+                  They have a seamless fund deposit system. </p>
                 </div>
               </div>
             </div>

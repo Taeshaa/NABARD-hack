@@ -1,7 +1,5 @@
 import React, { useContext, useEffect } from 'react';
 import AuthContext from '../../context/auth/authContext';
-import SideNav from '../layout/SideNav';
-import LoanForm from './LoanForm';
 import '../../assets/css/home.css';
 import Girlava from '../../assets/logos/girlava.png';
 import Carousel from '../pages/Carousel';
@@ -54,7 +52,7 @@ const Home = () => {
               
               <div className='home-box col-sm-4'>
                 <center>
-                <Link to='/categories'>
+                <Link to='/depositfunds'>
                   <div className='home-box-heading'>
                   <i class="fa-solid fa-handshake"></i> Deposit Funds
                   </div>
@@ -80,7 +78,7 @@ const Home = () => {
                       <img src={shgphoto} className='box-inner-img'></img>
                     </div>
                     <div className='box-inner-right bxr3 col-sm-8'>
-                    Here, Rural women may manage and view the members of their SHGs. She can also accept or reject other women's requests to join the SHG.
+                    The procedure to send and receive funds is simplified for the farmers.
                     </div>  
                   </div>
                   </Link>
@@ -91,7 +89,7 @@ const Home = () => {
             <div className='home-box-outer row'>
               <div className='home-box col-sm-4'>
               <center>
-                <Link to='/'>
+                <Link to='/availscheme'>
                 <div className='home-box-heading'>
                 <i class="fa-solid fa-shop"></i> Avail government scheme
                 </div>
@@ -100,7 +98,7 @@ const Home = () => {
                       <img src={sellproduct} className='box-inner-img'></img>
                     </div>
                     <div className='box-inner-right bxr4 col-sm-8'>
-                    We provide marketing assistance to startups in order to assist them in expanding their market for their products.
+                    Through our portal various government schemes developed especially for the farmers can be availed by filling the form.
                     </div>  
                   </div>
                   </Link>
@@ -108,7 +106,7 @@ const Home = () => {
               </div>
               <div className='home-box col-sm-4'>
                 <center>
-                <Link to='/'>
+                <Link to='/contactpage'>
                 <div className='home-box-heading'>
                 <i class="fa-solid fa-headset"></i> Customer Support
                 </div>
