@@ -30,29 +30,29 @@ const Schemes = () => {
             
                 <div className="cardcard" data-aos="fade-up">
                     <div className="content">
-                    <h2 className="title">MAHILA UDYAM NIDHI SCHEME</h2>
-                    <p className="copy">This scheme promotes MSMEs and small sector investments in different industries to grow and excel in their areas.</p>
+                    <h2 className="title">PM KISAN MAAN DHAN YOJNA </h2>
+                    <p className="copy">Scheme to provide social security to Small and Marginal Farmers in their old age.</p>
                     <a href="https://www.msmex.in/learn/what-is-mahila-udyam-nidhi-scheme/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>
                 <div className="cardcard" data-aos="fade-down">
                     <div className="content">
-                    <h2 className="title">ORIENT MAHILA VIKAS YOJANA</h2>
-                    <p className="copy">This scheme is for women who hold 51% share capital separately or collectively as a proprietary concern.</p>
+                    <h2 className="title">PM KRISHI SINCHAI YOJANA </h2>
+                    <p className="copy">Scheme to ensure access to protective irrigation to all agricultural farms in the country.</p>
                     <a href="https://www.govtgk.com/orient-mahila-vikas-yojana/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>
                 <div className="cardcard" data-aos="fade-up">
                     <div className="content">
-                    <h2 className="title">DENA SHAKTI SCHEME</h2>
-                    <p className="copy"> This scheme is for women entrepreneurs but limited only to those which are small enterprises or micr-credit organizations.</p>
+                    <h2 className="title">KRISHI UDAN SCHEMEE</h2>
+                    <p className="copy"> This scheme will be implemented at 53 airports across the country and is likely to benefit farmer, freight forwarders and Airlines.</p>
                     <a href="https://aatmnirbharsena.org/blog/dena-shakti-scheme/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>
                 <div className="cardcard" data-aos="fade-down">
                     <div className="content">
-                    <h2 className="title">UDYOGINI SCHEME</h2>
-                    <p className="copy">This program encourages women to be self reliant and help them in self development by empowering them economically.</p>
+                    <h2 className="title">PARAMPARAGAT KRISHI VIKAS YOJANA</h2>
+                    <p className="copy">The initiative promotes farmers to use traditional and organic farming practices, reducing their reliance on chemical inputs. </p>
                     <a href="https://www.lendingkart.com/blog/udyogini-scheme/" target="_blank" rel="noopener noreferrer"><button className="btnschemes">Know More!</button></a>
                     </div>
                 </div>
