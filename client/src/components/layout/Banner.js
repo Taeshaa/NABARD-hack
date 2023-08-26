@@ -15,14 +15,14 @@ const Banner = () => {
       <div className='banner-main-inner'>
         <div className='banner-left'>
           <div className='main-heading'>
-            Promoting <span className='hellospanner'>&</span> Supporting Female{' '}
-            <span className='hellospanner'>Entrepreuners</span>, Bringing Them{' '}
-            <span className='hellospanner'>Together</span>.{' '}
+            Promoting <span className='hellospanner'>&</span> Supporting Indian{' '}
+            <span className='hellospanner'>Farmers</span>, Bank the{' '}
+            <span className='hellospanner'>Unbanked</span>.{' '}
           </div>
           <div className='sub-heading'>
-            Adya, an initiative to promote and support aspiring as well as
-            established rural women entrepreneurs. Adya enables
-            partnerships between Rural women and existing ventures.
+          कृषिकोश  an initiative to cater to the financial needs of Indian farmers, 
+          with the overarching goal of improving their financial inclusion and overall 
+          economic well-being. 
           </div>
 
           <div className='button-banner-cont'>

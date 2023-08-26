@@ -33,10 +33,14 @@
     "google-maps-react": "^2.0.6",
     "iconify": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
+<<<<<<< HEAD
     "moment": "^2.29.4",
     "mongoose": "^6.0.8",
     "react-datetime-picker": "^5.5.1",
     "styled-components": "^6.0.7",
+=======
+    "mongoose": "^6.11.6",
+>>>>>>> 76d92993eb5b476cdacca533d8cc0ea64d675b87
     "tawkto-react": "^2.0.3"
   },
   "devDependencies": {
