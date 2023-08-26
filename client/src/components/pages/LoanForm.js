@@ -61,7 +61,7 @@ const LoanForm = () => {
     <div className='wrapper wrapper33'>
       <h1>
         <br />
-        FINANCIAL HELP!
+        Financial Help
       </h1>
       <form onSubmit={onSubmit}>
         <div className='row'>

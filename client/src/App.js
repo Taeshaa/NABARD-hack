@@ -12,6 +12,9 @@ import Donate from './components/layout/Donate';
 import Banner from '../../client/src/components/layout/Banner';
 import Testimonials from './components/layout/Testimonials';
 import Finance from '../../client/src/components/pages/FinanceHelp';
+import Deposit from '../../client/src/components/pages/DepositFunds';
+import ContactPage from '../../client/src/components/pages/ContactUsPage';
+import SchemeAvail from '../../client/src/components/pages/SchemeAvail';
 import News from './components/layout/News';
 
 import AuthState from './context/auth/AuthState';
@@ -47,6 +50,15 @@ const App = () => {
                 <PrivateRoute exact path='/financehelp'>
                   <Finance />
                 </PrivateRoute>
+                <PrivateRoute exact path='/contactpage'>
+                  <ContactPage />
+                </PrivateRoute>
+                <PrivateRoute exact path='/depositfunds'>
+                  <Deposit />
+                </PrivateRoute>
+                <PrivateRoute exact path='/availscheme'>
+                  <SchemeAvail />
+                </PrivateRoute>
                 <PrivateRoute exact path='/settings'>
                   <Settings />
                 </PrivateRoute>
@@ -55,8 +67,8 @@ const App = () => {
                   <Banner />
                   <AboutMain />
                   <Schemes />
-                  <News />
                   <Testimonials />
+                  <News />
                   <Contact />
                 </Route>
               </Switch>
