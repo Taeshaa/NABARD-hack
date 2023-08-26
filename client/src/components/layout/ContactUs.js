@@ -18,17 +18,22 @@ const ContactUs = () => {
             <div className="contact-inner row">
                 <div className="contact-left col-sm-6">
                             
-                    <img src={LogoMain} className='logo-contact'></img>
+                    {/* <img src={LogoMain} className='logo-contact'></img> */}
+                    <span className='contact-text'>
+                        कृषिकोश
+                    </span>
 
                     <div className='contact-left-text'>
                         
-                        Adya is an initiative to promote and support aspiring as well as established rural women entrepreneurs. Adya enables  partnerships between Rural women and existing ventures.
+                    कृषिकोश  an initiative to cater to the financial needs of Indian farmers, with the overarching goal of 
+                    improving their financial inclusion and overall economic well-being. It offers a comprehensive range of 
+                    services and resources that empower farmers to manage their finances more effectively.
                         
                         <br></br><br></br>
                         
-                        We assist rural women by providing them career possibilities and a source of income.
-                        We assist our customers in obtaining subsidies, bank loans, raising awareness of current government initiatives and schemes
-                        We assist them in obtaining an artisan card (identification card of the artisans).
+                        We assist farmers by providing them information about various loan options, interest rates, and repayment terms.
+                        We assist our customers in obtaining subsidies, bank loans, raising awareness of current government initiatives and schemes.
+                        We assist them in obtaining Kisan Credit card.
 
                     </div>
                 </div>
@@ -59,7 +64,7 @@ const ContactUs = () => {
                             <a target="blank" href="">
                                 <li class="fab fa-twitter fa-2x"></li>
                             </a>
-                            <p>© Adya Ventures | All rights reserved.</p>
+                            <p>© कृषिकोश | All rights reserved.</p>
                         </div>
                     </div>
                 </div>

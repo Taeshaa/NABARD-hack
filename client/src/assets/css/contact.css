@@ -1,3 +1,8 @@
+@font-face {
+    font-family: allura;
+    src: url("../fonts/allura.ttf");
+  } 
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 .contact-inner{
     background: linear-gradient(160deg, #8dac7d 50%, #e1eade 90%);
@@ -23,6 +28,16 @@
 .contact-left{
     text-align: center;
 }
+
+.contact-text{
+    font-family: allura !important;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    left: -15px;
+  }
+
 
 .contact-left-text{
     border-radius: 80px 30px 80px 30px;

@@ -1,7 +1,7 @@
 import '../../assets/css/navbar.css';
-import LogoMain from '../../assets/logos/logo-main.png';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import '../../assets/css/modal.css';
+import image1 from '../../assets/logos/logo_main.png';
 import Login from '../auth/Login';
 import Register from '../auth/Register';
 import Donate from './Donate';
@@ -18,8 +18,9 @@ const NavbarMain = () => {
       <nav className='nav'>
         <div className='nav-header'>
           <div className='nav-title'>
-            <span className=''>
-              <img src={LogoMain} className='brand-name-logo'></img>
+            
+            <span className='nav-title-inner'>
+            <img src={image1} />
             </span>
           </div>
         </div>
