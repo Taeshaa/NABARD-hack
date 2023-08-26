@@ -16,7 +16,12 @@ const ContactUs = () => {
         <div className="contact">
             <div className="contact-inner row">
                 <div className="contact-left col-sm-6">
-                            
+                    <span className='contact-text'>
+                        कृषिकोश
+                    </span>
+                    <br />
+                    <br />
+                    <br />
                     {/* <img src={LogoMain} className='logo-contact'></img> */}
 
                     <div className='contact-left-text'>
