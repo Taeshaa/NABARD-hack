@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import swal from 'sweetalert';
+import Dropdown from "./Dropdown"
 
-
+ 
 const SchemeForm = () => {
+  const [selected, setSelected]=useState("Choose One"); 
   return (
     <div className='wrapper wrapper33'>
       <h1>
@@ -14,14 +16,9 @@ const SchemeForm = () => {
         <div className='row'>
         <div className='form-group col-sm-6'>
           <label htmlFor='purpose'>Enter the name of the scheme : </label>
-          <input
-            type='text'
-            name='purpose'
-            // value={purpose}
-            // onChange={onChange}
-            autoComplete='off'
-            required
-          />
+          <div className='drop'>
+          <Dropdown selected={selected} setSelected={setSelected}/>
+          </div>
         </div>
         </div>
         <div className='row'>

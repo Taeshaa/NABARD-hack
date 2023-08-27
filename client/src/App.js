@@ -15,6 +15,7 @@ import Finance from '../../client/src/components/pages/FinanceHelp';
 import Deposit from '../../client/src/components/pages/DepositFunds';
 import ContactPage from '../../client/src/components/pages/ContactUsPage';
 import SchemeAvail from '../../client/src/components/pages/SchemeAvail';
+import LogTransaction from '../../client/src/components/pages/TransactionLog';
 import News from './components/layout/News';
 
 import AuthState from './context/auth/AuthState';
@@ -55,6 +56,9 @@ const App = () => {
                 </PrivateRoute>
                 <PrivateRoute exact path='/depositfunds'>
                   <Deposit />
+                </PrivateRoute>
+                <PrivateRoute exact path='/transactionlog'>
+                  <LogTransaction />
                 </PrivateRoute>
                 <PrivateRoute exact path='/availscheme'>
                   <SchemeAvail />

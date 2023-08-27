@@ -4,8 +4,14 @@ import swal from 'sweetalert';
 import NavbarInside from '../layout/NavbarInside';
 import AuthContext from '../../context/auth/authContext';
 import '../../assets/css/home.css';
+// import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
+// import { DatePicker } from '@mui/x-date-picker'
+// import { DatePicker } from '@mui/x-date-picker/DatePicker'
+// import { DatePicker } from '@mui/x-date-picker-pro'
+// import { LocalizationProvider } from '@mui/x-date-pickers-pro/LocalizationProvider';
 // import Paper from '@mui/material/Paper';
 // import  DateTimePicker from '@mui/x-date-pickers/DateTimePicker';
+import DatePicker from 'rsuite/DatePicker';
 
 
 
@@ -65,11 +71,24 @@ const ContactUsForm = () => {
           <div className='form-group col-sm-6'>
             <label htmlFor='phone'>
             Slot for Call Back:{' '}
+            <div className='dateTimePicker'>
+          <DatePicker
+    format="yyyy-MM-dd HH:mm:ss"
+    calendarDefaultDate={new Date('2022-02-02 00:00:00')}
+    ranges={[
+      {
+        label: 'Now',
+        value: new Date()
+      }
+    ]}
+    style={{ width: 260 }}
+    editable={true}
+    showMeridian
+  />
+           </div>
             </label>
           </div>
-          {/* <div className='dateTimePicker'>
-            
-            </div> */}
+          
         </div>
 
         

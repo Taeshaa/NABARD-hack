@@ -69,9 +69,9 @@ const Home = () => {
               </div>
               <div className='home-box col-sm-4'>
                 <center>
-                <Link to='/shgroups'>
+                <Link to='/transactionlog'>
                   <div className='home-box-heading'>
-                  <i class="fa-solid fa-user-group"></i> Send/Receive Funds
+                  <i class="fa-solid fa-user-group"></i> Sent/Received Funds
                   </div>
                   <div className='row'>
                     <div className='box-inner-left col-sm-4'>
@@ -108,7 +108,7 @@ const Home = () => {
                 <center>
                 <Link to='/contactpage'>
                 <div className='home-box-heading'>
-                <i class="fa-solid fa-headset"></i> Customer Support
+                <i class="fa-solid fa-headset"></i> Door Step Service
                 </div>
                 <div className='row'>
                     <div className='box-inner-left col-sm-4'>
